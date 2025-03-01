@@ -1,2 +1,2 @@
 # Wedding_planner_project
-Wedding Planner Project
+ Welcome to my Wedding Planner Project
