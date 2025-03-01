@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+.ceremony-section {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.ceremony-section h2 {
+    font-size: 24px;
+    color: #d2691e;
+}
+
+ceremony-section img {
+    width: 50%;  /* Reducing width */
+    max-width: 350px;  /* Setting max width */
+    height: auto;  /* Keeping aspect ratio */
+    display: block;  
+    margin: 10px auto; /* Centering the image */
+    object-fit: contain; /* Ensures the full image is visible */
+}
+.ceremony-section p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+.ceremony-section a {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #d2691e;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.ceremony-section a:hover {
+    background: #a0522d;
+}

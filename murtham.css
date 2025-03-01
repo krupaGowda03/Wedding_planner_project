@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #fff;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.full-image {
+    width: 70%; /* Make image full width */
+    max-height: 70vh; /* Keep height controlled */
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.description {
+    font-size: 1.2rem;
+    margin: 20px 0;
+    text-align: justify;
+}
+
+.next-btn {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}

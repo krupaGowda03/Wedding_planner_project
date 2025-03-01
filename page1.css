@@ -1,0 +1,103 @@
+
+body {
+    background-image: url('your-image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+}
+
+img {
+    width: 100vw;
+    height: 85vh;
+    object-fit: cover; /* Ensures the image covers the entire page */
+}
+
+
+}
+.shasthra {
+    font-size: 20px;
+    font-weight: bold;
+    color: #8b5e83; /* Elegant wedding color */
+    text-align: center;
+    margin-top: 10px;
+}
+container {
+    height: 100vh; /* Full screen height */
+    overflow: hidden;
+}
+left-box {
+    background-color: #1E3A5F; /* Adjust this blue to match your site */
+}
+
+/* Sidebar - Make It Smaller */
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 150px; /* Reduced width */
+    height: 100%;
+    background: #b76e79;
+    padding-top: 20px;
+}
+
+/* Sidebar Links */
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    padding: 10px;
+    text-align: left;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar ul li a:hover {
+    background: #ffdfdf;
+    color: #b76e79;
+}
+
+/* Fix Content Position */
+.image-section, .about-us {
+    margin-left: 180px; /* Adjusted to fit sidebar */
+    text-align: center;
+    max-width: 80%; /* Prevent too much stretching */
+}
+
+button {
+    background: #d47fa6;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover {
+    background: #b7648e;
+}
+/* Center "About Us" Button */
+.about-btn {
+    display: inline-block;
+    background: #b76e79;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.about-btn:hover {
+    background: #8b5e68;
+}

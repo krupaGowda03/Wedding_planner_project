@@ -1,0 +1,97 @@
+* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f0e3;
+    color: #333;
+    text-align: center;
+}
+
+/* Navigation Bar */
+nav ul {
+    list-style-type: none;
+    padding: 10px;
+    background-color: #d99c8a;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 15px;
+}
+
+nav ul li a.active, nav ul li a:hover {
+    background-color: #bf736d;
+    border-radius: 5px;
+}
+
+/* About Section */
+.about {
+    padding: 50px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about h1 {
+    color: #d99c8a;
+}
+
+/* Pricing Section */
+.pricing {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.price-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+}
+
+.price-card h3 {
+    color: #d99c8a;
+}
+
+/* Contact Section */
+.contact {
+    padding: 40px;
+    background: #d99c8a;
+    color: white;
+}
+
+.contact .btn {
+    display: inline-block;
+    background: white;
+    color: #d99c8a;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.contact .btn:hover {
+    background: #bf736d;
+    color: white;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
